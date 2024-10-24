@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 %matplotlib inline
 
-df = pd.read_table("Classified_Data.txt",sep=',', index_col=0)
+df = pd.read_table("/content/drive/MyDrive/AIML/Classified_Data.txt",sep=',', index_col=0)
 df.head()
 ```
 
